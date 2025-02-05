@@ -1,4 +1,4 @@
-🌦️ Weather Prediction using LSTM
+# 🌦️ Weather Prediction using LSTM
 
 📜 Project Description:
 This project focuses on predicting weather conditions, specifically temperature for the next three days, using a Long Short-Term Memory (LSTM) neural network. The model is trained on historical weather data and deployed using Streamlit for an interactive user interface. The prediction process involves scaling input data, feeding it into the LSTM model, and displaying the predicted temperature.
@@ -18,9 +18,9 @@ Humidity (%)
 Wind Speed (km/h)
 Data Format Example:
 
-Date	Temperature	Humidity	Wind Speed
-2025-01-01	25	65	10
-2025-01-02	26	70	12
+Date	    Temperature	  Humidity	 Wind Speed
+2025-01-01	 25	          65	       10       
+2025-01-02	 26	          70	       12 
 Preprocessing Steps:
 Remove null values and irrelevant columns.
 Convert date-time values into proper time-series format.
